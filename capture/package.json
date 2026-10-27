@@ -1,0 +1,10 @@
+{
+  "name": "x-studio-capture",
+  "private": true,
+  "description": "Proof capture for X posts: page screenshots, screencast recordings, ffmpeg clips and contact sheets. Kept out of the root package so the queue CLI stays dependency-free.",
+  "type": "module",
+  "dependencies": {
+    "ffmpeg-static": "5.2.0",
+    "playwright": "1.48.2"
+  }
+}

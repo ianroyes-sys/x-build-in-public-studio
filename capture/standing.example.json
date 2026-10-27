@@ -1,0 +1,4 @@
+[
+  { "kind": "shot", "url": "http://127.0.0.1:3000/stats", "name": "auto-{date}-stats.jpg", "crop": "2560:830:400:60", "why": "agent runs and spend this week" },
+  { "kind": "rec", "url": "http://127.0.0.1:3000/projects", "name": "auto-{date}-projects.mp4", "seconds": 12, "scroll": 900, "why": "what is live, on TestFlight, or building" }
+]

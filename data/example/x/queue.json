@@ -1,0 +1,64 @@
+{
+  "account": { "handle": "example_builder" },
+  "posts": [
+    {
+      "id": "X001",
+      "status": "posted",
+      "slot": "2026-11-02T08:30:00-06:00",
+      "theme": "the approval gate",
+      "format": "Single · image",
+      "tweets": [{ "text": "built a gate that rejects my own tweets\n\n280 chars, proof media on every post, sources that exist on disk, no links in the main post\n\nit said no to 4 of my first 9 drafts", "media": ["sample-proof.png"] }],
+      "proof": "Sample data. Image is a generated placeholder card.",
+      "sources": ["README.md"],
+      "why": ["concrete number in line one"],
+      "flag": "",
+      "aiMedia": false,
+      "createdBy": "x-studio",
+      "createdAt": "2026-11-01T12:47:00.000Z",
+      "approvedAt": "2026-11-01T15:02:00.000Z",
+      "postedAt": "2026-11-02T14:31:40.000Z",
+      "url": "https://x.com/example_builder/status/1000000000000000001",
+      "attempts": 0,
+      "history": [{ "at": "2026-11-01T12:47:00.000Z", "to": "pending" }, { "at": "2026-11-01T15:02:00.000Z", "to": "scheduled" }, { "at": "2026-11-02T14:31:40.000Z", "to": "posted" }]
+    },
+    {
+      "id": "X002",
+      "status": "scheduled",
+      "slot": "2026-11-02T17:30:00-06:00",
+      "theme": "sandbox vs browser",
+      "format": "Thread · image",
+      "tweets": [
+        { "text": "my writing agent cant open a browser\n\nthe sandbox kills chromium on startup. so it asks a 6:15am cron job for screenshots and writes the post after they land", "media": ["sample-proof.png"] },
+        { "text": "two jobs, one queue file, one lock. the agent never touches x.com", "media": [] }
+      ],
+      "proof": "Sample data. Image is a generated placeholder card.",
+      "sources": ["README.md"],
+      "why": ["a real constraint and the workaround"],
+      "flag": "",
+      "aiMedia": false,
+      "createdBy": "x-studio",
+      "createdAt": "2026-11-01T12:48:00.000Z",
+      "approvedAt": "2026-11-01T15:02:00.000Z",
+      "attempts": 0,
+      "history": [{ "at": "2026-11-01T12:48:00.000Z", "to": "pending" }, { "at": "2026-11-01T15:02:00.000Z", "to": "scheduled" }]
+    },
+    {
+      "id": "X003",
+      "status": "pending",
+      "slot": "2026-11-03T08:30:00-06:00",
+      "theme": "one tap",
+      "format": "Single · image",
+      "tweets": [{ "text": "nothing posts until i tap approve\n\nthe cli refuses to approve when an agent runs it. one env var, one rule", "media": ["sample-proof.png"] }],
+      "proof": "Sample data. Image is a generated placeholder card.",
+      "sources": ["README.md"],
+      "why": ["shows the human-in-the-loop design"],
+      "flag": "",
+      "aiMedia": false,
+      "createdBy": "x-studio",
+      "createdAt": "2026-11-02T12:47:00.000Z",
+      "attempts": 0,
+      "history": [{ "at": "2026-11-02T12:47:00.000Z", "to": "pending" }]
+    }
+  ],
+  "updatedAt": "2026-11-02T14:31:40.000Z"
+}

@@ -1,0 +1,12 @@
+{
+  "theme": "contact sheets",
+  "format": "Single · image",
+  "tweets": [
+    { "text": "my agent has to look at every frame before it posts a clip\n\nffmpeg makes a 12-frame contact sheet, the agent reads it, then decides", "media": ["sample-proof.png"] }
+  ],
+  "proof": "Sample draft. The image is a generated placeholder card; the claim comes from capture/capture.mjs.",
+  "sources": ["capture/capture.mjs"],
+  "why": ["specific and checkable"],
+  "flag": "",
+  "aiMedia": false
+}

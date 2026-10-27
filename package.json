@@ -1,0 +1,16 @@
+{
+  "name": "x-build-in-public-studio",
+  "version": "1.0.0",
+  "description": "A human-approved X (Twitter) build-in-public pipeline: an AI writer agent, a policy gate, a one-tap approval queue, proof capture, and a guarded posting agent.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "private": true,
+  "bin": { "x-queue": "bin/x.mjs" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "demo": "X_DATA_DIR=data/example/x node bin/x.mjs list",
+    "x": "node bin/x.mjs",
+    "capture:install": "npm --prefix capture install"
+  }
+}

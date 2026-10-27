@@ -1,0 +1,12 @@
+# Proof capture for THE FEED. The x-studio writer can't open a browser inside its sandbox, so
+# it queues shots in data/x/capture-requests.json and this job takes them, plus the standing
+# views in capture/standing.json, before the writer wakes at 6:47. No model; nothing leaves
+# the machine. Set working_dir to where you cloned this repo.
+description: Capture screenshots and recordings for X posts (feeds x-studio)
+schedule: "15 6 * * *"
+
+steps:
+  - id: capture
+    working_dir: ~/code/x-build-in-public-studio
+    run: node capture/daily.mjs
+    retry_policy: { limit: 1, interval_sec: 120 }

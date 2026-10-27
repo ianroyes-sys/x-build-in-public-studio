@@ -1,0 +1,5 @@
+# Terms bin/x.mjs refuses in any tweet, one per line, case-insensitive.
+# Put client names, employers, private projects and money words here.
+Acme Client Co
+secret project
+MRR
